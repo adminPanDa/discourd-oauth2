@@ -1,0 +1,33 @@
+#root{
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #005073;
+}
+
+#hub {
+  width: 60%;
+  height: 75%;
+  margin: 0 auto;
+  top: 50%;
+  display: flex;
+  position: relative;
+  background-color: white;
+  transform: translateY(-50%);
+  box-shadow: -9px 11px 7px 1px #002d40;
+}
+#prof{
+  float: left;
+  padding: 12px;
+}
+#right-pan{
+  margin: 0 auto;
+  padding: 24px;
+}
+.odometer {
+    font-size: 80px;
+}
