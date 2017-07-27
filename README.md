@@ -1,2 +1,2 @@
 # discourd-oauth2
-Oauth2 login rresence for Discord.
+Oauth2 login presence for Discord.
