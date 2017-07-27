@@ -5,9 +5,9 @@ from flask_cors import CORS, cross_origin
 import jwt
 
 
-OAUTH2_CLIENT_ID = '339880437600223242'
-OAUTH2_CLIENT_SECRET = 'ORZZoBABsEDkRjTG1BDQ6kT4H-hUBG6s'
-OAUTH2_REDIRECT_URI = 'http://localhost:3001/callback'
+OAUTH2_CLIENT_ID = 'CLIENT ID HERE'
+OAUTH2_CLIENT_SECRET = 'CLIENT SECRET HERE'
+OAUTH2_REDIRECT_URI = 'http://localhost:3000/callback'
 
 API_BASE_URL = os.environ.get('API_BASE_URL', 'https://discordapp.com/api')
 AUTHORIZATION_BASE_URL = API_BASE_URL + '/oauth2/authorize'
@@ -82,4 +82,4 @@ def info():
 
 
 if __name__ == '__main__':
-    app.run(port=3001)
+    app.run(port=3000)
